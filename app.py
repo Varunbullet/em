@@ -63,7 +63,7 @@ def home():
 		events = cur.fetchall()
 		# cur.execute("SELECT event_data FROM events")
 		# eventdate = cur.fetchall()
-		# events = [(1, 'Jays Concert', 'Music Concert', '2023-04-23', '09:00:00', 'Best singer EVER!', 'bhabha', 7990760364), (2, 'Vishals Dance', 'Dance Show', '2023-04-24', '08:00:00', 'Amazing solo dance', 'bhabha', 7877770225), (3, 'Chirags Standup', 'Comedy Show', '2023-04-25', '08:00:00', 'Funniest Standup Comedy', 'Gajjar Bhavan', 7556894521)]
+		events = [(1, 'Jays Concert', 'Music Concert', '2023-04-23', '09:00:00', 'Best singer EVER!', 'bhabha', 7990760364), (2, 'Vishals Dance', 'Dance Show', '2023-04-24', '08:00:00', 'Amazing solo dance', 'bhabha', 7877770225), (3, 'Chirags Standup', 'Comedy Show', '2023-04-25', '08:00:00', 'Funniest Standup Comedy', 'Gajjar Bhavan', 7556894521)]
 		# status = 1
 		# if str(eventdate) > str(datetime.datetime.now().date()):
 		# 	status = 0
